@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* background-color: #288d9d; */
+  /* background-color: #289d8f; */
+  display: flex;
+  height: 100vh;
+  /* width: 50vw; */
+  /* justify-content: center; */
+  align-items: center;
+  margin: auto;
+  background-color: #8a1b1b;
+  /* @media (max-width: 700px) {
+    
+  } */
+}
+
+.calculator {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.screen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 60px;
+  font-size: 35px;
+  padding: 3px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.calc-buttons-row {
+  display: flex;
+  height: 70px;
+  margin: 1px;
+}
+
+.calc-buttons {
+  border-bottom: 2px solid black;
+}
+
+.calc-button {
+  margin: 1px;
+  font-size: 30px;
+}
+
+.calc-button:last-child {
+  background-color: #efa947;
+  color: white;
+}
+.single {
+  width: 25.5%;
+  height: 100%;
+}
+.double {
+  width: 51.8%;
+  height: 100%;
+}
+.triple {
+  width: 78%;
+  height: 100%;
+}
+
+
+@media (min-width: 320px) {
+
+}
+@media (min-width: 480px) {
+  .calculator {
+    margin: 10%;
+  }
+}
+@media (min-width: 568px) {
+
+  
+}
+@media (min-width: 600px) {
+  .calculator {
+    margin: 17%;
+  }
+}
+@media (min-width: 768px) {
+  .calculator {
+    margin: 25%;
+  }
+}
+@media (min-width: 800px) {
+  
+}
+@media (min-width: 1024px) {
+  .calculator {
+    margin: 31%;
+  }
+}
+@media (min-width: 1280px) {
+ 
+}
+@media (min-width: 1440px) {
+  .calculator {
+    margin: 37%;
+  }
+}
+@media (min-width: 1920px) {
+  .calculator {
+    margin: 40%;
+  }
+}

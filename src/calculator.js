@@ -34,14 +34,14 @@ const addListenerToNumeralBtn = (button, value) => {
 const addListenerToActionBtn = (button, value) => {
   button.addEventListener("click", () => {
     let secondNumber;
-    if (action !== null) {
-      secondNumber = currentNum;
-      firstNumber = includePreviousCalculation(firstNumber, secondNumber);
-      currentNum = 0;
-    } else {
-      firstNumber = currentNum;
-      currentNum = 0;
-    }
+    (action !== null) ? (
+      secondNumber = currentNum,
+      firstNumber = includePreviousCalculation(firstNumber, secondNumber),
+      currentNum = 0
+    ) : (
+      firstNumber = currentNum,
+      currentNum = 0
+    )
     action = value;
     screen.innerHTML = 0;
   });
